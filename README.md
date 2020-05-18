@@ -145,7 +145,7 @@ docker run -t --rm DARKLEONYT/seeker
 docker network create ngroknet
 
 # Step 2
-docker run --rm -t --net ngroknet --name seeker thewhiteh4t/seeker python3 seeker.py -t manual
+docker run --rm -t --net ngroknet --name seeker DARKLEONYT/seeker python3 seeker.py -t manual
 
 # Step 3
 docker run --rm -t --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:8080
