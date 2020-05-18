@@ -59,7 +59,7 @@ You can choose a template which will be used by seeker from these :
 
 * NearYou
 * Google Drive (Suggested by @Akaal_no_one)
-* WhatsApp (Suggested by @Dazmed707)
+* WhatsApp
 
 ## Tested On :
 
@@ -76,7 +76,7 @@ You can choose a template which will be used by seeker from these :
 
 ```bash
 git clone https://github.com/thewhiteh4t/seeker.git
-cd seeker/
+cd seeker
 chmod 777 install.sh
 ./install.sh
 ```
@@ -97,7 +97,7 @@ docker pull thewhiteh4t/seeker
 
 ```bash
 git clone https://github.com/thewhiteh4t/seeker.git
-cd seeker/
+cd seeker
 chmod 777 termux_install.sh
 ./termux_install.sh
 ```
@@ -163,8 +163,8 @@ docker run --rm -t --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:
 
 * Services like Serveo and Ngrok are banned in some countries such as Russia etc., so if it's banned in your country you may not get a URL, if not then first READ CLOSED ISSUES, if your problem is not listed, create a new issue.
 
-## Demo
 
-<p align="center">
-	<a href="https://www.youtube.com/watch?v=FEyAPjkJFrk"><img src="https://i.imgur.com/48yrleF.png"></a>
-</p>
+
+
+
+
